@@ -1,11 +1,11 @@
 package server
 
 import (
-	pb "github.com/micro/micro/v3/proto/config"
-	"github.com/micro/micro/v3/service"
-	"github.com/micro/micro/v3/service/config/handler"
-	"github.com/micro/micro/v3/service/logger"
-	"github.com/micro/micro/v3/service/store"
+	pb "github.com/tickoalcantara12/micro/v3/proto/config"
+	"github.com/tickoalcantara12/micro/v3/service"
+	"github.com/tickoalcantara12/micro/v3/service/config/handler"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/store"
 	"github.com/urfave/cli/v2"
 )
 

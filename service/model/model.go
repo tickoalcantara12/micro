@@ -9,7 +9,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/micro/micro/v3/service/store"
+	"github.com/tickoalcantara12/micro/v3/service/store"
 )
 
 var (

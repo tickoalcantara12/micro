@@ -25,8 +25,8 @@ import (
 	"sync"
 
 	"github.com/gorilla/handlers"
-	"github.com/micro/micro/v3/service/api"
-	"github.com/micro/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/api"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
 )
 
 type httpServer struct {

@@ -19,7 +19,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/micro/micro/v3/service/network/transport"
+	"github.com/tickoalcantara12/micro/v3/service/network/transport"
 )
 
 const (

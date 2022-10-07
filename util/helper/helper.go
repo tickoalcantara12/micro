@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/micro/v3/service/context/metadata"
+	"github.com/tickoalcantara12/micro/v3/service/context/metadata"
 	"github.com/urfave/cli/v2"
 )
 

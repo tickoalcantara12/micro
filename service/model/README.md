@@ -9,8 +9,8 @@ The following snippets will this piece of code prepends them.
 
 ```go
 import(
-    model "github.com/micro/micro/v3/service/model"
-    fs "github.com/micro/micro/v3/service/store/file"
+    model "github.com/tickoalcantara12/micro/v3/service/model"
+    fs "github.com/tickoalcantara12/micro/v3/service/store/file"
 )
 
 type User struct {

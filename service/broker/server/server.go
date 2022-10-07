@@ -3,11 +3,11 @@ package server
 import (
 	"time"
 
-	pb "github.com/micro/micro/v3/proto/broker"
-	"github.com/micro/micro/v3/service"
-	"github.com/micro/micro/v3/service/broker"
-	"github.com/micro/micro/v3/service/broker/handler"
-	"github.com/micro/micro/v3/service/logger"
+	pb "github.com/tickoalcantara12/micro/v3/proto/broker"
+	"github.com/tickoalcantara12/micro/v3/service"
+	"github.com/tickoalcantara12/micro/v3/service/broker"
+	"github.com/tickoalcantara12/micro/v3/service/broker/handler"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
 	"github.com/urfave/cli/v2"
 )
 

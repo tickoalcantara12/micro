@@ -3,16 +3,16 @@ package handler
 import (
 	"context"
 
-	pb "github.com/micro/micro/v3/proto/network"
-	pbRtr "github.com/micro/micro/v3/proto/router"
-	"github.com/micro/micro/v3/service/errors"
-	log "github.com/micro/micro/v3/service/logger"
-	"github.com/micro/micro/v3/service/network"
-	"github.com/micro/micro/v3/service/network/mucp"
-	"github.com/micro/micro/v3/service/network/util"
-	"github.com/micro/micro/v3/service/router"
-	authns "github.com/micro/micro/v3/util/auth/namespace"
-	"github.com/micro/micro/v3/util/namespace"
+	pb "github.com/tickoalcantara12/micro/v3/proto/network"
+	pbRtr "github.com/tickoalcantara12/micro/v3/proto/router"
+	"github.com/tickoalcantara12/micro/v3/service/errors"
+	log "github.com/tickoalcantara12/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/network"
+	"github.com/tickoalcantara12/micro/v3/service/network/mucp"
+	"github.com/tickoalcantara12/micro/v3/service/network/util"
+	"github.com/tickoalcantara12/micro/v3/service/router"
+	authns "github.com/tickoalcantara12/micro/v3/util/auth/namespace"
+	"github.com/tickoalcantara12/micro/v3/util/namespace"
 )
 
 // Network implements network handler

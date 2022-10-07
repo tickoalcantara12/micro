@@ -23,8 +23,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/micro/micro/v3/service/api/resolver"
-	"github.com/micro/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/api/resolver"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
 	"golang.org/x/net/publicsuffix"
 )
 

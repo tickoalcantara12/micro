@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/micro/micro/v3/service/network/resolver"
+	"github.com/tickoalcantara12/micro/v3/service/network/resolver"
 )
 
 // Resolver is a HTTP network resolver

@@ -21,7 +21,7 @@ Yes, Micro is Apache 2.0 licensed.
 
 ## Where do I start?
 
-Start by checking out the project itself at [github.com/micro/micro](https://github.com/micro/micro)
+Start by checking out the project itself at [github.com/tickoalcantara12/micro](https://github.com/tickoalcantara12/micro)
 
 ## Where can I run Micro?
 

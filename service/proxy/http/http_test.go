@@ -23,13 +23,13 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/micro/micro/v3/service/client"
-	cmucp "github.com/micro/micro/v3/service/client/mucp"
-	"github.com/micro/micro/v3/service/registry/memory"
-	"github.com/micro/micro/v3/service/router"
-	"github.com/micro/micro/v3/service/router/registry"
-	"github.com/micro/micro/v3/service/server"
-	"github.com/micro/micro/v3/service/server/mucp"
+	"github.com/tickoalcantara12/micro/v3/service/client"
+	cmucp "github.com/tickoalcantara12/micro/v3/service/client/mucp"
+	"github.com/tickoalcantara12/micro/v3/service/registry/memory"
+	"github.com/tickoalcantara12/micro/v3/service/router"
+	"github.com/tickoalcantara12/micro/v3/service/router/registry"
+	"github.com/tickoalcantara12/micro/v3/service/server"
+	"github.com/tickoalcantara12/micro/v3/service/server/mucp"
 )
 
 type testHandler struct{}

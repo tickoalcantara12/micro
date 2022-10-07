@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	prot "google.golang.org/protobuf/compiler/protogen"
 
-	"github.com/micro/micro/v3/cmd/protoc-gen-openapi/converter/testdata"
+	"github.com/tickoalcantara12/micro/v3/cmd/protoc-gen-openapi/converter/testdata"
 )
 
 const (

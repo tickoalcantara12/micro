@@ -28,13 +28,13 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	pbapi "github.com/micro/micro/v3/proto/api"
-	"github.com/micro/micro/v3/service/api"
-	"github.com/micro/micro/v3/service/client"
-	"github.com/micro/micro/v3/service/errors"
-	"github.com/micro/micro/v3/service/logger"
-	raw "github.com/micro/micro/v3/util/codec/bytes"
-	"github.com/micro/micro/v3/util/router"
+	pbapi "github.com/tickoalcantara12/micro/v3/proto/api"
+	"github.com/tickoalcantara12/micro/v3/service/api"
+	"github.com/tickoalcantara12/micro/v3/service/client"
+	"github.com/tickoalcantara12/micro/v3/service/errors"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
+	raw "github.com/tickoalcantara12/micro/v3/util/codec/bytes"
+	"github.com/tickoalcantara12/micro/v3/util/router"
 )
 
 const (

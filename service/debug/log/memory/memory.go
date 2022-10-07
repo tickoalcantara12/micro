@@ -18,8 +18,8 @@ package memory
 import (
 	"fmt"
 
-	"github.com/micro/micro/v3/service/debug/log"
-	"github.com/micro/micro/v3/util/ring"
+	"github.com/tickoalcantara12/micro/v3/service/debug/log"
+	"github.com/tickoalcantara12/micro/v3/util/ring"
 )
 
 // memoryLog is default micro log

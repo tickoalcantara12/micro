@@ -20,10 +20,10 @@ import (
 
 	"github.com/fatih/camelcase"
 	"github.com/gorilla/mux"
-	"github.com/micro/micro/v3/client/web/html"
-	"github.com/micro/micro/v3/cmd"
-	"github.com/micro/micro/v3/service/auth"
-	"github.com/micro/micro/v3/service/registry"
+	"github.com/tickoalcantara12/micro/v3/client/web/html"
+	"github.com/tickoalcantara12/micro/v3/cmd"
+	"github.com/tickoalcantara12/micro/v3/service/auth"
+	"github.com/tickoalcantara12/micro/v3/service/registry"
 	"github.com/serenize/snaker"
 	"github.com/urfave/cli/v2"
 )

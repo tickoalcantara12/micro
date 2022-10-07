@@ -8,10 +8,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/micro/micro/v3/cmd"
-	"github.com/micro/micro/v3/service/auth"
-	log "github.com/micro/micro/v3/service/logger"
-	"github.com/micro/micro/v3/service/runtime"
+	"github.com/tickoalcantara12/micro/v3/cmd"
+	"github.com/tickoalcantara12/micro/v3/service/auth"
+	log "github.com/tickoalcantara12/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/runtime"
 	"github.com/urfave/cli/v2"
 )
 

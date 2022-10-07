@@ -1,17 +1,17 @@
-module github.com/micro/micro/profile/platform
+module github.com/tickoalcantara12/micro/profile/platform
 
 go 1.18
 
 require (
 	github.com/go-redis/redis/v8 v8.11.3
-	github.com/micro/micro/plugin/etcd/v3 v3.0.0-20220816083658-7f875afc6a39
-	github.com/micro/micro/plugin/postgres/v3 v3.0.0-20210825142032-d27318700a59
-	github.com/micro/micro/plugin/prometheus/v3 v3.0.0-20201217215412-2f7ad18595ff
-	github.com/micro/micro/plugin/redis/blocklist/v3 v3.0.0-20220908113659-758df06ca38b
-	github.com/micro/micro/plugin/redis/broker/v3 v3.0.0-20210622092058-b12502169757
-	github.com/micro/micro/plugin/redis/stream/v3 v3.0.0-20210622092058-b12502169757
-	github.com/micro/micro/plugin/s3/v3 v3.0.0-20220203170347-2c86e5fb6d13
-	github.com/micro/micro/v3 v3.13.0
+	github.com/tickoalcantara12/micro/plugin/etcd/v3 v3.0.0-20220816083658-7f875afc6a39
+	github.com/tickoalcantara12/micro/plugin/postgres/v3 v3.0.0-20210825142032-d27318700a59
+	github.com/tickoalcantara12/micro/plugin/prometheus/v3 v3.0.0-20201217215412-2f7ad18595ff
+	github.com/tickoalcantara12/micro/plugin/redis/blocklist/v3 v3.0.0-20220908113659-758df06ca38b
+	github.com/tickoalcantara12/micro/plugin/redis/broker/v3 v3.0.0-20210622092058-b12502169757
+	github.com/tickoalcantara12/micro/plugin/redis/stream/v3 v3.0.0-20210622092058-b12502169757
+	github.com/tickoalcantara12/micro/plugin/s3/v3 v3.0.0-20220203170347-2c86e5fb6d13
+	github.com/tickoalcantara12/micro/v3 v3.13.0
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/urfave/cli/v2 v2.3.0
 )

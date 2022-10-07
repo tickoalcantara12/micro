@@ -10,7 +10,7 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 
-	"github.com/micro/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
 )
 
 type CallbackFunc func() error

@@ -17,10 +17,10 @@ package grpc
 import (
 	"runtime/debug"
 
-	pb "github.com/micro/micro/v3/proto/transport"
-	"github.com/micro/micro/v3/service/errors"
-	"github.com/micro/micro/v3/service/logger"
-	"github.com/micro/micro/v3/service/network/transport"
+	pb "github.com/tickoalcantara12/micro/v3/proto/transport"
+	"github.com/tickoalcantara12/micro/v3/service/errors"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/network/transport"
 	"google.golang.org/grpc/peer"
 )
 

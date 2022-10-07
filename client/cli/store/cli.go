@@ -6,8 +6,8 @@
 package cli
 
 import (
-	"github.com/micro/micro/v3/cmd"
-	"github.com/micro/micro/v3/util/helper"
+	"github.com/tickoalcantara12/micro/v3/cmd"
+	"github.com/tickoalcantara12/micro/v3/util/helper"
 	"github.com/urfave/cli/v2"
 )
 

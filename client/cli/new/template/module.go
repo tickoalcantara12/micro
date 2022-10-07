@@ -7,7 +7,7 @@ go 1.18
 
 require (
 	github.com/golang/protobuf latest
-	github.com/micro/micro/v3 latest
+	github.com/tickoalcantara12/micro/v3 latest
 	google.golang.org/protobuf latest
 )
 

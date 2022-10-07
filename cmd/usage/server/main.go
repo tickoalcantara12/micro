@@ -14,7 +14,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/gorilla/handlers"
-	pb "github.com/micro/micro/v3/cmd/usage/proto"
+	pb "github.com/tickoalcantara12/micro/v3/cmd/usage/proto"
 	bolt "go.etcd.io/bbolt"
 )
 

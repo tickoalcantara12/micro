@@ -17,7 +17,7 @@ package memory
 import (
 	"context"
 
-	"github.com/micro/micro/v3/service/registry"
+	"github.com/tickoalcantara12/micro/v3/service/registry"
 )
 
 type servicesKey struct{}

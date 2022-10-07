@@ -19,8 +19,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/micro/v3/service/debug/trace"
-	"github.com/micro/micro/v3/util/ring"
+	"github.com/tickoalcantara12/micro/v3/service/debug/trace"
+	"github.com/tickoalcantara12/micro/v3/util/ring"
 )
 
 type Tracer struct {

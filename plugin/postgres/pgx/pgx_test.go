@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/micro/micro/v3/service/store"
+	"github.com/tickoalcantara12/micro/v3/service/store"
 )
 
 type testObj struct {

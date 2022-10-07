@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/micro/v3/service/api"
-	"github.com/micro/micro/v3/service/api/router"
-	"github.com/micro/micro/v3/service/context/metadata"
-	"github.com/micro/micro/v3/service/logger"
-	"github.com/micro/micro/v3/service/registry"
-	"github.com/micro/micro/v3/service/registry/cache"
-	"github.com/micro/micro/v3/util/namespace"
-	util "github.com/micro/micro/v3/util/router"
+	"github.com/tickoalcantara12/micro/v3/service/api"
+	"github.com/tickoalcantara12/micro/v3/service/api/router"
+	"github.com/tickoalcantara12/micro/v3/service/context/metadata"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/registry"
+	"github.com/tickoalcantara12/micro/v3/service/registry/cache"
+	"github.com/tickoalcantara12/micro/v3/util/namespace"
+	util "github.com/tickoalcantara12/micro/v3/util/router"
 )
 
 var (

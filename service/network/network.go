@@ -16,8 +16,8 @@
 package network
 
 import (
-	"github.com/micro/micro/v3/service/client"
-	"github.com/micro/micro/v3/service/server"
+	"github.com/tickoalcantara12/micro/v3/service/client"
+	"github.com/tickoalcantara12/micro/v3/service/server"
 )
 
 var (

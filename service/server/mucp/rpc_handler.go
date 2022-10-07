@@ -19,8 +19,8 @@ package mucp
 import (
 	"reflect"
 
-	"github.com/micro/micro/v3/service/registry"
-	"github.com/micro/micro/v3/service/server"
+	"github.com/tickoalcantara12/micro/v3/service/registry"
+	"github.com/tickoalcantara12/micro/v3/service/server"
 )
 
 type rpcHandler struct {

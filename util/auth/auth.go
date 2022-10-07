@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/micro/micro/v3/service/auth"
+	"github.com/tickoalcantara12/micro/v3/service/auth"
 )
 
 const (

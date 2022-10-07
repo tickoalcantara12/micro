@@ -1,3 +1,3 @@
-module github.com/micro/micro/cmd/protoc-gen-client
+module github.com/tickoalcantara12/micro/cmd/protoc-gen-client
 
 go 1.15

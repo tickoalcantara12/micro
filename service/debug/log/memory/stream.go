@@ -15,7 +15,7 @@
 package memory
 
 import (
-	"github.com/micro/micro/v3/service/debug/log"
+	"github.com/tickoalcantara12/micro/v3/service/debug/log"
 )
 
 type logStream struct {

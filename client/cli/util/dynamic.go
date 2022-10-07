@@ -10,10 +10,10 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/micro/micro/v3/client/cli/namespace"
-	"github.com/micro/micro/v3/service/client"
-	"github.com/micro/micro/v3/service/context"
-	"github.com/micro/micro/v3/service/registry"
+	"github.com/tickoalcantara12/micro/v3/client/cli/namespace"
+	"github.com/tickoalcantara12/micro/v3/service/client"
+	"github.com/tickoalcantara12/micro/v3/service/context"
+	"github.com/tickoalcantara12/micro/v3/service/registry"
 	"github.com/stretchr/objx"
 	"github.com/urfave/cli/v2"
 )

@@ -6,8 +6,8 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	plugin "github.com/golang/protobuf/protoc-gen-go/plugin"
-	"github.com/micro/micro/v3/cmd/protoc-gen-openapi/converter"
-	"github.com/micro/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/cmd/protoc-gen-openapi/converter"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
 )
 
 func main() {

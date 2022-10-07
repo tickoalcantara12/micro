@@ -25,9 +25,9 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/micro/micro/v3/service/api"
-	"github.com/micro/micro/v3/service/api/handler"
-	"github.com/micro/micro/v3/service/registry"
+	"github.com/tickoalcantara12/micro/v3/service/api"
+	"github.com/tickoalcantara12/micro/v3/service/api/handler"
+	"github.com/tickoalcantara12/micro/v3/service/registry"
 )
 
 const (

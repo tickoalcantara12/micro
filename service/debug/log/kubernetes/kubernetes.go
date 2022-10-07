@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/micro/micro/v3/service/debug/log"
-	"github.com/micro/micro/v3/service/runtime/kubernetes/client"
+	"github.com/tickoalcantara12/micro/v3/service/debug/log"
+	"github.com/tickoalcantara12/micro/v3/service/runtime/kubernetes/client"
 )
 
 type klog struct {

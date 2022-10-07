@@ -1,8 +1,8 @@
-module github.com/micro/micro/service/runtime/cells/go/loader
+module github.com/tickoalcantara12/micro/service/runtime/cells/go/loader
 
 go 1.18
 
-require github.com/micro/micro/v3 v3.12.4-0.20220816095507-e5d9335c692a
+require github.com/tickoalcantara12/micro/v3 v3.12.4-0.20220816095507-e5d9335c692a
 
 require (
 	github.com/bitly/go-simplejson v0.5.0 // indirect

@@ -29,11 +29,11 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
 
-	"github.com/micro/micro/v3/service/network/transport"
-	maddr "github.com/micro/micro/v3/util/addr"
-	"github.com/micro/micro/v3/util/buf"
-	mnet "github.com/micro/micro/v3/util/net"
-	mls "github.com/micro/micro/v3/util/tls"
+	"github.com/tickoalcantara12/micro/v3/service/network/transport"
+	maddr "github.com/tickoalcantara12/micro/v3/util/addr"
+	"github.com/tickoalcantara12/micro/v3/util/buf"
+	mnet "github.com/tickoalcantara12/micro/v3/util/net"
+	mls "github.com/tickoalcantara12/micro/v3/util/tls"
 )
 
 type httpTransport struct {

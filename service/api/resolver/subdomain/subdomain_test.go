@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/micro/micro/v3/service/api/resolver/vpath"
+	"github.com/tickoalcantara12/micro/v3/service/api/resolver/vpath"
 
 	"github.com/stretchr/testify/assert"
 )

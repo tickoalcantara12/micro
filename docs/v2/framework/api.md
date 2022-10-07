@@ -26,7 +26,7 @@ allows handlers to be configured too.
 ## Install
 
 ```shell
-go get -u github.com/micro/micro/v2
+go get -u github.com/tickoalcantara12/micro/v2
 ```
 
 ## Run

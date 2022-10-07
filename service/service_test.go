@@ -6,9 +6,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/micro/micro/v3/profile"
-	proto "github.com/micro/micro/v3/proto/debug"
-	"github.com/micro/micro/v3/service/client"
+	"github.com/tickoalcantara12/micro/v3/profile"
+	proto "github.com/tickoalcantara12/micro/v3/proto/debug"
+	"github.com/tickoalcantara12/micro/v3/service/client"
 )
 
 func testShutdown(wg *sync.WaitGroup, cancel func()) {

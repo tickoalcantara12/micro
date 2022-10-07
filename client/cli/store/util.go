@@ -3,7 +3,7 @@ package cli
 import (
 	"strings"
 
-	"github.com/micro/micro/v3/service/store"
+	"github.com/tickoalcantara12/micro/v3/service/store"
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"
 )

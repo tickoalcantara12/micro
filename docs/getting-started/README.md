@@ -24,13 +24,13 @@ You will need protoc-gen-micro for code generation
 
 - [protobuf](https://github.com/golang/protobuf)
 - [protoc-gen-go](https://github.com/golang/protobuf/tree/master/protoc-gen-go)
-- [protoc-gen-micro](https://github.com/micro/micro/tree/master/cmd/protoc-gen-micro)
+- [protoc-gen-micro](https://github.com/tickoalcantara12/micro/tree/master/cmd/protoc-gen-micro)
 
 ```
 # Download latest proto releaes
 # https://github.com/protocolbuffers/protobuf/releases
 go get github.com/golang/protobuf/protoc-gen-go
-go get github.com/micro/micro/v3/cmd/protoc-gen-micro
+go get github.com/tickoalcantara12/micro/v3/cmd/protoc-gen-micro
 ```
 
 ## Install
@@ -40,7 +40,7 @@ go get github.com/micro/micro/v3/cmd/protoc-gen-micro
 Using Go:
 
 ```sh
-go install github.com/micro/micro/v3@latest
+go install github.com/tickoalcantara12/micro/v3@latest
 ```
 
 ### Release Binary
@@ -214,7 +214,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/micro/micro/v3/service"
+	"github.com/tickoalcantara12/micro/v3/service"
 	proto "github.com/micro/services/helloworld/proto"
 )
 
@@ -299,7 +299,7 @@ download protobuf for micro:
 
 go get -u github.com/golang/protobuf/proto
 go get -u github.com/golang/protobuf/protoc-gen-go
-go get github.com/micro/micro/v3/cmd/protoc-gen-micro
+go get github.com/tickoalcantara12/micro/v3/cmd/protoc-gen-micro
 
 compile the proto file helloworld.proto:
 
@@ -393,8 +393,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/micro/micro/v3/service"
-	"github.com/micro/micro/v3/service/store"
+	"github.com/tickoalcantara12/micro/v3/service"
+	"github.com/tickoalcantara12/micro/v3/service/store"
 )
 
 func main() {
@@ -503,8 +503,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/micro/micro/v3/service"
-	"github.com/micro/micro/v3/service/config"
+	"github.com/tickoalcantara12/micro/v3/service"
+	"github.com/tickoalcantara12/micro/v3/service/config"
 )
 
 func main() {

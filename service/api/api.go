@@ -26,16 +26,16 @@ import (
 
 	jsonpatch "github.com/evanphx/json-patch/v5"
 
-	"github.com/micro/micro/v3/service/api/resolver"
-	"github.com/micro/micro/v3/service/context/metadata"
-	"github.com/micro/micro/v3/service/registry"
-	"github.com/micro/micro/v3/service/server"
-	"github.com/micro/micro/v3/util/acme"
-	"github.com/micro/micro/v3/util/codec"
-	"github.com/micro/micro/v3/util/codec/bytes"
-	"github.com/micro/micro/v3/util/codec/jsonrpc"
-	"github.com/micro/micro/v3/util/codec/protorpc"
-	"github.com/micro/micro/v3/util/qson"
+	"github.com/tickoalcantara12/micro/v3/service/api/resolver"
+	"github.com/tickoalcantara12/micro/v3/service/context/metadata"
+	"github.com/tickoalcantara12/micro/v3/service/registry"
+	"github.com/tickoalcantara12/micro/v3/service/server"
+	"github.com/tickoalcantara12/micro/v3/util/acme"
+	"github.com/tickoalcantara12/micro/v3/util/codec"
+	"github.com/tickoalcantara12/micro/v3/util/codec/bytes"
+	"github.com/tickoalcantara12/micro/v3/util/codec/jsonrpc"
+	"github.com/tickoalcantara12/micro/v3/util/codec/protorpc"
+	"github.com/tickoalcantara12/micro/v3/util/qson"
 	"github.com/oxtoacart/bpool"
 )
 

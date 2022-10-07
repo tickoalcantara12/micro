@@ -4,17 +4,17 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/micro/micro/v3/service/api"
-	"github.com/micro/micro/v3/service/api/handler"
-	"github.com/micro/micro/v3/service/api/router"
-	"github.com/micro/micro/v3/service/client"
-	"github.com/micro/micro/v3/service/errors"
+	"github.com/tickoalcantara12/micro/v3/service/api"
+	"github.com/tickoalcantara12/micro/v3/service/api/handler"
+	"github.com/tickoalcantara12/micro/v3/service/api/router"
+	"github.com/tickoalcantara12/micro/v3/service/client"
+	"github.com/tickoalcantara12/micro/v3/service/errors"
 
-	aapi "github.com/micro/micro/v3/service/api/handler/api"
-	"github.com/micro/micro/v3/service/api/handler/event"
-	ahttp "github.com/micro/micro/v3/service/api/handler/http"
-	"github.com/micro/micro/v3/service/api/handler/rpc"
-	"github.com/micro/micro/v3/service/api/handler/web"
+	aapi "github.com/tickoalcantara12/micro/v3/service/api/handler/api"
+	"github.com/tickoalcantara12/micro/v3/service/api/handler/event"
+	ahttp "github.com/tickoalcantara12/micro/v3/service/api/handler/http"
+	"github.com/tickoalcantara12/micro/v3/service/api/handler/rpc"
+	"github.com/tickoalcantara12/micro/v3/service/api/handler/web"
 )
 
 type metaHandler struct {

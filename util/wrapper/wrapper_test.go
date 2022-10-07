@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/micro/micro/v3/service/auth"
-	"github.com/micro/micro/v3/service/context/metadata"
-	"github.com/micro/micro/v3/service/errors"
-	"github.com/micro/micro/v3/service/server"
-	"github.com/micro/micro/v3/util/codec"
+	"github.com/tickoalcantara12/micro/v3/service/auth"
+	"github.com/tickoalcantara12/micro/v3/service/context/metadata"
+	"github.com/tickoalcantara12/micro/v3/service/errors"
+	"github.com/tickoalcantara12/micro/v3/service/server"
+	"github.com/tickoalcantara12/micro/v3/util/codec"
 
 	. "github.com/onsi/gomega"
 )

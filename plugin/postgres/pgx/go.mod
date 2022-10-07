@@ -1,10 +1,10 @@
-module github.com/micro/micro/plugin/pgx/v3
+module github.com/tickoalcantara12/micro/plugin/pgx/v3
 
 go 1.17
 
 require (
 	github.com/jackc/pgx/v4 v4.17.0
-	github.com/micro/micro/v3 v3.2.2-0.20210526102354-5294ad2ae421
+	github.com/tickoalcantara12/micro/v3 v3.2.2-0.20210526102354-5294ad2ae421
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.8.0
 )
@@ -25,4 +25,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/micro/micro/v3 => ./../../..
+replace github.com/tickoalcantara12/micro/v3 => ./../../..

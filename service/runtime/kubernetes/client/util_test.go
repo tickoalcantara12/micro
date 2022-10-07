@@ -18,7 +18,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/micro/micro/v3/service/runtime"
+	"github.com/tickoalcantara12/micro/v3/service/runtime"
 )
 
 func TestTemplates(t *testing.T) {

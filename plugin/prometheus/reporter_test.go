@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/micro/v3/service/metrics"
+	"github.com/tickoalcantara12/micro/v3/service/metrics"
 	"github.com/stretchr/testify/assert"
 )
 

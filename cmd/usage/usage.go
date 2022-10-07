@@ -13,7 +13,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/google/uuid"
-	pb "github.com/micro/micro/v3/cmd/usage/proto"
+	pb "github.com/tickoalcantara12/micro/v3/cmd/usage/proto"
 )
 
 var (

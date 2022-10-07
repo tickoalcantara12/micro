@@ -12,9 +12,9 @@ import (
 	"text/template"
 	"time"
 
-	tmpl "github.com/micro/micro/v3/client/cli/new/template"
-	"github.com/micro/micro/v3/cmd"
-	"github.com/micro/micro/v3/cmd/usage"
+	tmpl "github.com/tickoalcantara12/micro/v3/client/cli/new/template"
+	"github.com/tickoalcantara12/micro/v3/cmd"
+	"github.com/tickoalcantara12/micro/v3/cmd/usage"
 	"github.com/urfave/cli/v2"
 	"github.com/xlab/treeprint"
 )

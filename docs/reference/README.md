@@ -36,7 +36,7 @@ Micro can be installed locally in the following way. We assume for the most part
 #### Go Get
 
 ```
-go get github.com/micro/micro/v3
+go get github.com/tickoalcantara12/micro/v3
 ```
 
 #### Docker
@@ -293,7 +293,7 @@ FLAGS:
 
 ```
 
-At this point it is useful to have a look at the proto of the [registry service here](https://github.com/micro/micro/blob/master/proto/registry/registry.proto).
+At this point it is useful to have a look at the proto of the [registry service here](https://github.com/tickoalcantara12/micro/blob/master/proto/registry/registry.proto).
 
 In particular, let's see the `GetService` endpoint definition to understand how request parameters map to flags:
 
@@ -403,8 +403,8 @@ Micro is built as a distributed operating system leveraging the microservices ar
 
 Below we describe the list of services provided by the Micro Server. Each service is considered a 
 building block primitive for a platform and distributed systems development. The proto 
-interfaces for each can be found in [micro/proto/auth](https://github.com/micro/micro/blob/master/proto/auth/auth.proto) 
-and the Go library, client and server implementations in [micro/service/auth](https://github.com/micro/micro/tree/master/service/auth).
+interfaces for each can be found in [micro/proto/auth](https://github.com/tickoalcantara12/micro/blob/master/proto/auth/auth.proto) 
+and the Go library, client and server implementations in [micro/service/auth](https://github.com/tickoalcantara12/micro/tree/master/service/auth).
 
 ### API
 
@@ -755,8 +755,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/micro/micro/v3/service"
-	"github.com/micro/micro/v3/service/config"
+	"github.com/tickoalcantara12/micro/v3/service"
+	"github.com/tickoalcantara12/micro/v3/service/config"
 )
 
 type keyConfig struct {
@@ -793,7 +793,7 @@ func main() {
 The above service will print the value of `key.subkey` and `key.subkey` every second.
 By passing in the `config.Secret(true)` option, we tell config to decrypt secret values for us, similarly to the `--secret` CLI flag.
 
-The [config interface](https://github.com/micro/micro/blob/master/service/config/config.go) specifies not just `Get` `Set` and `Delete` to access values,
+The [config interface](https://github.com/tickoalcantara12/micro/blob/master/service/config/config.go) specifies not just `Get` `Set` and `Delete` to access values,
 but a few convenience functions too in the `Value` interface.
 
 It is worth noting that `String` `Int` etc methods will do a best effort try at coercing types, ie. if the value saved is a string, `Int` will try to parse it.
@@ -861,7 +861,7 @@ Error codes are also used when handling retries. If your service returns a 500 (
 
 ```go
 import (
-	"github.com/micro/micro/v3/service/errors"
+	"github.com/tickoalcantara12/micro/v3/service/errors"
 )
 
 func (u *Users) Read(ctx context.Context, req *pb.ReadRequest, rsp *pb.ReadResponse) error {
@@ -1156,7 +1156,7 @@ id4         {"id":"id4", "name":"Betty","class":"thirdGrade"    "avgScore": 94}
 ```
 
 ```go
-import "github.com/micro/micro/v3/service/store"
+import "github.com/tickoalcantara12/micro/v3/service/store"
 
 records, err := store.Read("id1")
 if err != nil {
@@ -1189,7 +1189,7 @@ thirdGrade/id4  {"id":"id4", "name":"Betty","class":"thirdGrade"    "avgScore": 
 
 
 ```go
-import "github.com/micro/micro/v3/service/store"
+import "github.com/tickoalcantara12/micro/v3/service/store"
 
 records, err := store.Read("", store.Prefix("secondGrade"))
 if err != nil {
@@ -1242,7 +1242,7 @@ usersByClass/thirdGrade/id4  {"id":"id4", "name":"Betty","class":"thirdGrade"   
 Respective go examples this way become:
 
 ```go
-import "github.com/micro/micro/v3/service/store"
+import "github.com/tickoalcantara12/micro/v3/service/store"
 
 const idPrefix = "usersById/"
 
@@ -1255,7 +1255,7 @@ fmt.Println(records[0].Value)
 ```
 
 ```go
-import "github.com/micro/micro/v3/service/store"
+import "github.com/tickoalcantara12/micro/v3/service/store"
 
 const classPrefix = "usersByClass/"
 
@@ -1276,7 +1276,7 @@ Metadata / headers can be passed via the context in RPC calls. The context/metad
 ```go
 import (
 	"context"
-	"github.com/micro/micro/v3/service/context/metadata"
+	"github.com/tickoalcantara12/micro/v3/service/context/metadata"
 )
 
 ...
@@ -1329,9 +1329,9 @@ package staging
 import (
 	"github.com/urfave/cli/v2"
 
-	"github.com/micro/micro/v3/profile"
-	"github.com/micro/micro/v3/service/store"
-	"github.com/micro/micro/v3/service/store/memory"
+	"github.com/tickoalcantara12/micro/v3/profile"
+	"github.com/tickoalcantara12/micro/v3/service/store"
+	"github.com/tickoalcantara12/micro/v3/service/store/memory"
 )
 
 func init() {
@@ -1350,7 +1350,7 @@ var staging = &profile.Profile{
 
 ```bash
 pushd profile/staging
-go mod init github.com/micro/micro/profile/staging
+go mod init github.com/tickoalcantara12/micro/profile/staging
 go mod tidy
 popd
 ```
@@ -1360,7 +1360,7 @@ popd
 You can load a custom profile using a couple of commands, the first adds a replace to your go mod, indicating it should look for your custom profile within the profile directory:
 
 ```bash
-go mod edit -replace github.com/micro/micro/profile/staging/v3=./profile/staging
+go mod edit -replace github.com/tickoalcantara12/micro/profile/staging/v3=./profile/staging
 go mod tidy
 ```
 

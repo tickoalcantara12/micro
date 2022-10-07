@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/micro/micro/v3/service/broker"
-	"github.com/micro/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/broker"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
 	nats "github.com/nats-io/nats.go"
 )
 

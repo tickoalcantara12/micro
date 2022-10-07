@@ -1,10 +1,10 @@
 package client
 
 import (
-	pb "github.com/micro/micro/v3/proto/router"
-	"github.com/micro/micro/v3/service/client"
-	"github.com/micro/micro/v3/service/context"
-	"github.com/micro/micro/v3/service/router"
+	pb "github.com/tickoalcantara12/micro/v3/proto/router"
+	"github.com/tickoalcantara12/micro/v3/service/client"
+	"github.com/tickoalcantara12/micro/v3/service/context"
+	"github.com/tickoalcantara12/micro/v3/service/router"
 )
 
 type table struct {

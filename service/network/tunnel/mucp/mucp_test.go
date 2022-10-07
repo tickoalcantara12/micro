@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/micro/micro/v3/service/network/transport"
-	"github.com/micro/micro/v3/service/network/tunnel"
+	"github.com/tickoalcantara12/micro/v3/service/network/transport"
+	"github.com/tickoalcantara12/micro/v3/service/network/tunnel"
 )
 
 func testBrokenTunAccept(t *testing.T, tun tunnel.Tunnel, wait chan bool, wg *sync.WaitGroup) {

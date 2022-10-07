@@ -10,16 +10,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/micro/micro/v3/service/auth"
-	"github.com/micro/micro/v3/service/build"
-	"github.com/micro/micro/v3/service/build/util/tar"
-	"github.com/micro/micro/v3/service/client"
-	"github.com/micro/micro/v3/service/logger"
-	"github.com/micro/micro/v3/service/runtime"
-	kclient "github.com/micro/micro/v3/service/runtime/kubernetes/client"
-	"github.com/micro/micro/v3/service/runtime/source/git"
-	"github.com/micro/micro/v3/service/store"
-	"github.com/micro/micro/v3/util/namespace"
+	"github.com/tickoalcantara12/micro/v3/service/auth"
+	"github.com/tickoalcantara12/micro/v3/service/build"
+	"github.com/tickoalcantara12/micro/v3/service/build/util/tar"
+	"github.com/tickoalcantara12/micro/v3/service/client"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/runtime"
+	kclient "github.com/tickoalcantara12/micro/v3/service/runtime/kubernetes/client"
+	"github.com/tickoalcantara12/micro/v3/service/runtime/source/git"
+	"github.com/tickoalcantara12/micro/v3/service/store"
+	"github.com/tickoalcantara12/micro/v3/util/namespace"
 )
 
 const (

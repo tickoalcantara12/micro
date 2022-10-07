@@ -7,11 +7,11 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/micro/micro/v3/client/cli/namespace"
-	"github.com/micro/micro/v3/client/cli/token"
-	"github.com/micro/micro/v3/client/cli/util"
-	"github.com/micro/micro/v3/service/auth"
-	"github.com/micro/micro/v3/util/report"
+	"github.com/tickoalcantara12/micro/v3/client/cli/namespace"
+	"github.com/tickoalcantara12/micro/v3/client/cli/token"
+	"github.com/tickoalcantara12/micro/v3/client/cli/util"
+	"github.com/tickoalcantara12/micro/v3/service/auth"
+	"github.com/tickoalcantara12/micro/v3/util/report"
 	"github.com/urfave/cli/v2"
 	"golang.org/x/crypto/ssh/terminal"
 )

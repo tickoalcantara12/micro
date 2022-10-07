@@ -21,7 +21,7 @@ import (
 	"context"
 	"crypto/tls"
 
-	"github.com/micro/micro/v3/service/client"
+	"github.com/tickoalcantara12/micro/v3/service/client"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/encoding"
 )

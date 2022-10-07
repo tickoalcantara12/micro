@@ -1,11 +1,11 @@
-module github.com/micro/micro/plugin/tailscale/transport/v3
+module github.com/tickoalcantara12/micro/plugin/tailscale/transport/v3
 
 go 1.18
 
-replace github.com/micro/micro/v3 => ../../..
+replace github.com/tickoalcantara12/micro/v3 => ../../..
 
 require (
-	github.com/micro/micro/v3 v3.0.0-00010101000000-000000000000
+	github.com/tickoalcantara12/micro/v3 v3.0.0-00010101000000-000000000000
 	tailscale.com v1.28.0
 )
 

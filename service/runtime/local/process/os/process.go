@@ -16,7 +16,7 @@
 package os
 
 import (
-	"github.com/micro/micro/v3/service/runtime/local/process"
+	"github.com/tickoalcantara12/micro/v3/service/runtime/local/process"
 )
 
 type Process struct{}

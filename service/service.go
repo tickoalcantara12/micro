@@ -11,13 +11,13 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/micro/micro/v3/cmd"
-	"github.com/micro/micro/v3/service/client"
-	mudebug "github.com/micro/micro/v3/service/debug"
-	debug "github.com/micro/micro/v3/service/debug/handler"
-	"github.com/micro/micro/v3/service/logger"
-	"github.com/micro/micro/v3/service/model"
-	"github.com/micro/micro/v3/service/server"
+	"github.com/tickoalcantara12/micro/v3/cmd"
+	"github.com/tickoalcantara12/micro/v3/service/client"
+	mudebug "github.com/tickoalcantara12/micro/v3/service/debug"
+	debug "github.com/tickoalcantara12/micro/v3/service/debug/handler"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/model"
+	"github.com/tickoalcantara12/micro/v3/service/server"
 )
 
 var (

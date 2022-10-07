@@ -19,8 +19,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/micro/micro/v3/service/store"
-	"github.com/micro/micro/v3/service/store/file"
+	"github.com/tickoalcantara12/micro/v3/service/store"
+	"github.com/tickoalcantara12/micro/v3/service/store/file"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -17,10 +17,10 @@
 package router
 
 import (
-	"github.com/micro/micro/v3/service/api/resolver"
-	"github.com/micro/micro/v3/service/api/resolver/vpath"
-	"github.com/micro/micro/v3/service/registry"
-	"github.com/micro/micro/v3/service/registry/memory"
+	"github.com/tickoalcantara12/micro/v3/service/api/resolver"
+	"github.com/tickoalcantara12/micro/v3/service/api/resolver/vpath"
+	"github.com/tickoalcantara12/micro/v3/service/registry"
+	"github.com/tickoalcantara12/micro/v3/service/registry/memory"
 )
 
 type Options struct {

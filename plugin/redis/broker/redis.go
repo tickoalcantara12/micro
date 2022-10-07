@@ -10,9 +10,9 @@ import (
 
 	"github.com/go-redis/redis/v8"
 	"github.com/google/uuid"
-	"github.com/micro/micro/v3/service/broker"
-	"github.com/micro/micro/v3/service/events"
-	"github.com/micro/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/broker"
+	"github.com/tickoalcantara12/micro/v3/service/events"
+	"github.com/tickoalcantara12/micro/v3/service/logger"
 	"github.com/pkg/errors"
 )
 

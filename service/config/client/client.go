@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"net/http"
 
-	proto "github.com/micro/micro/v3/proto/config"
-	"github.com/micro/micro/v3/service/client"
-	"github.com/micro/micro/v3/service/config"
-	"github.com/micro/micro/v3/service/context"
-	"github.com/micro/micro/v3/service/errors"
+	proto "github.com/tickoalcantara12/micro/v3/proto/config"
+	"github.com/tickoalcantara12/micro/v3/service/client"
+	"github.com/tickoalcantara12/micro/v3/service/config"
+	"github.com/tickoalcantara12/micro/v3/service/context"
+	"github.com/tickoalcantara12/micro/v3/service/errors"
 )
 
 var (

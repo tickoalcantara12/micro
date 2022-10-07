@@ -22,15 +22,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/micro/v3/service/auth"
-	"github.com/micro/micro/v3/service/broker"
-	"github.com/micro/micro/v3/service/broker/memory"
-	"github.com/micro/micro/v3/service/debug/trace"
-	"github.com/micro/micro/v3/service/network/transport"
-	thttp "github.com/micro/micro/v3/service/network/transport/http"
-	"github.com/micro/micro/v3/service/registry"
-	memReg "github.com/micro/micro/v3/service/registry/memory"
-	"github.com/micro/micro/v3/util/codec"
+	"github.com/tickoalcantara12/micro/v3/service/auth"
+	"github.com/tickoalcantara12/micro/v3/service/broker"
+	"github.com/tickoalcantara12/micro/v3/service/broker/memory"
+	"github.com/tickoalcantara12/micro/v3/service/debug/trace"
+	"github.com/tickoalcantara12/micro/v3/service/network/transport"
+	thttp "github.com/tickoalcantara12/micro/v3/service/network/transport/http"
+	"github.com/tickoalcantara12/micro/v3/service/registry"
+	memReg "github.com/tickoalcantara12/micro/v3/service/registry/memory"
+	"github.com/tickoalcantara12/micro/v3/util/codec"
 )
 
 type Options struct {

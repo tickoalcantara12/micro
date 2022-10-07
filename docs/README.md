@@ -9,11 +9,11 @@ with the complexity of distributed systems and provides simpler programmable abs
 
 ## Source
 
-[GitHub Repo](https://github.com/micro/micro)
+[GitHub Repo](https://github.com/tickoalcantara12/micro)
 
 ## Download
 
-[Latest Release](https://github.com/micro/micro/releases/latest)
+[Latest Release](https://github.com/tickoalcantara12/micro/releases/latest)
 
 ## Content
 

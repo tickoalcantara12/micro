@@ -7,9 +7,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/micro/micro/v3/service/api/resolver"
-	res "github.com/micro/micro/v3/service/api/resolver"
-	"github.com/micro/micro/v3/service/router"
+	"github.com/tickoalcantara12/micro/v3/service/api/resolver"
+	res "github.com/tickoalcantara12/micro/v3/service/api/resolver"
+	"github.com/tickoalcantara12/micro/v3/service/router"
 )
 
 var re = regexp.MustCompile("^[a-zA-Z0-9]+([a-zA-Z0-9-]*[a-zA-Z0-9]*)?$")

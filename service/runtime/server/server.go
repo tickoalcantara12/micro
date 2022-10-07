@@ -3,12 +3,12 @@ package server
 import (
 	"os"
 
-	pb "github.com/micro/micro/v3/proto/runtime"
-	"github.com/micro/micro/v3/service"
-	log "github.com/micro/micro/v3/service/logger"
-	"github.com/micro/micro/v3/service/runtime"
-	"github.com/micro/micro/v3/service/runtime/handler"
-	"github.com/micro/micro/v3/service/runtime/manager"
+	pb "github.com/tickoalcantara12/micro/v3/proto/runtime"
+	"github.com/tickoalcantara12/micro/v3/service"
+	log "github.com/tickoalcantara12/micro/v3/service/logger"
+	"github.com/tickoalcantara12/micro/v3/service/runtime"
+	"github.com/tickoalcantara12/micro/v3/service/runtime/handler"
+	"github.com/tickoalcantara12/micro/v3/service/runtime/manager"
 	"github.com/urfave/cli/v2"
 )
 

@@ -23,7 +23,7 @@ In go-micro, you would create a service by importing `github.com/micro/go-micro`
   )
 ```
 
-In Micro V3, we've removed namespaces from service names, so the above service would now be named simply **foo**. We've also created a package specifically for services: `github.com/micro/micro/v3/service`. Dotted service names can still be used, however the full service name will be required when calling the API, such as: "http://localhost:8080/go.micro.service.foo/Bar", unless the API is configured with the namespace flag.
+In Micro V3, we've removed namespaces from service names, so the above service would now be named simply **foo**. We've also created a package specifically for services: `github.com/tickoalcantara12/micro/v3/service`. Dotted service names can still be used, however the full service name will be required when calling the API, such as: "http://localhost:8080/go.micro.service.foo/Bar", unless the API is configured with the namespace flag.
 
 The above service can now be defined as:
 ```go
@@ -34,15 +34,15 @@ The above service can now be defined as:
 
 ### Packages
 
-In go-micro, modules such as config could only be accessed via the service object, for example `srv.Options().Config.Read()`. In Micro this has been made easier by providing public functions in each package which can be accessed by importing any package, nested within "github.com/micro/micro/v3/service". Here is an example of how you can load config in Micro:
+In go-micro, modules such as config could only be accessed via the service object, for example `srv.Options().Config.Read()`. In Micro this has been made easier by providing public functions in each package which can be accessed by importing any package, nested within "github.com/tickoalcantara12/micro/v3/service". Here is an example of how you can load config in Micro:
 
 ```go
 package main
 
 import (
-  "github.com/micro/micro/v3/service"
-  "github.com/micro/micro/v3/service/config"
-  "github.com/micro/micro/v3/service/logger"
+  "github.com/tickoalcantara12/micro/v3/service"
+  "github.com/tickoalcantara12/micro/v3/service/config"
+  "github.com/tickoalcantara12/micro/v3/service/logger"
 )
 
 func main() {
@@ -68,14 +68,14 @@ func main() {
 ```
 
 Other examples of packages which can be imported in this manner are:
-* [Auth](https://github.com/micro/micro/tree/master/service/auth)
-* [Broker](https://github.com/micro/micro/tree/master/service/broker)  
-* [Client](https://github.com/micro/micro/tree/master/service/client)
-* [Config](https://github.com/micro/micro/tree/master/service/config)
-* [Context](https://github.com/micro/micro/tree/master/service/context)
-* [Errors](https://github.com/micro/micro/tree/master/service/errors)
-* [Logger](https://github.com/micro/micro/tree/master/service/logger)
-* [Store](https://github.com/micro/micro/tree/master/service/store)
+* [Auth](https://github.com/tickoalcantara12/micro/tree/master/service/auth)
+* [Broker](https://github.com/tickoalcantara12/micro/tree/master/service/broker)  
+* [Client](https://github.com/tickoalcantara12/micro/tree/master/service/client)
+* [Config](https://github.com/tickoalcantara12/micro/tree/master/service/config)
+* [Context](https://github.com/tickoalcantara12/micro/tree/master/service/context)
+* [Errors](https://github.com/tickoalcantara12/micro/tree/master/service/errors)
+* [Logger](https://github.com/tickoalcantara12/micro/tree/master/service/logger)
+* [Store](https://github.com/tickoalcantara12/micro/tree/master/service/store)
 
 
 ### Running services
